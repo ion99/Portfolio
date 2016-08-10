@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="portfolio.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript">
     </script>
@@ -14,23 +15,21 @@
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="nav">
             <div class="row">
-              <div class="col-sm-1">
-                <img src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/656496/profile/profile-80_1.jpg">
+              <div class="col-sm-1 col-xs-2">
+                <img class="my_pic" src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/656496/profile/profile-80_1.jpg">
               </div>
-              <div class="col-sm-2">
-                  <h2>Ion Gorincioi</h2>
-              </div>
-              <div class="col-sm-4 col-sm-offset-1">
+              <div class="col-sm-2 col-xs-3 name">Ion Gorincioi</div>
+              <div class="list col-sm-4 col-sm-offset-1 col-xs-3">
                 <ul class="nav navbar-nav">
                   <li class="section"><a href="#section1">About me</a></li>
                   <li class="section"><a href="#section2">Portofolio</a></li>
                   <li class="section"><a href="#section3">Contact</a></li>
                 </ul>
               </div>  
-              <div class="button col-sm-3 col-sm-offset-1">     
-                <a href="https://www.freecodecamp.com/ion99" target='_blank' class="btn btn-success">FreeCodeCamp</a>
-                <a href="https://linkedin.com/in/iongorincioi" target='_blank' class="btn btn-info">LinkedIn</a>
-                <a href="https://github.com/ion99" target='_blank' class="btn btn-default">GitHub</a>
+              <div class="button col-sm-3 col-sm-offset-1 col-xs-7">     
+                <a href="https://www.freecodecamp.com/ion99" target='_blank' class="btn btn-success btn-responsive">FreeCodeCamp</a>
+                <a href="https://linkedin.com/in/iongorincioi" target='_blank' class="btn btn-info btn-responsive">LinkedIn</a>
+                <a href="https://github.com/ion99" target='_blank' class="btn git">GitHub</a>
               </div>
             </div>
           </div>
@@ -41,10 +40,10 @@
     <div id="section1" class="container history">
       <div class="jumbotron myhistory">
         <h1 class="about-me text-center">&lt; / { Hello World ! } / &gt;  </h1>   
-        <p> <span class="fun">function </span><span class="abt">About</span><span class="brc">(</span><span class="me">Me</span><span class="brc">) </span><span class="brc">{ <br></span><span class="ret">return </span><span class="this">this</span><span class="brc"> = </span>My name is Ion. I am a passionate Full Stack Software Engineer with a love for creating well-designed, intuitive user interface and functional back-end. I am focused on mastering JavaScript, jQuery, CSS, Bootstrap, Express, Node, SQL and front-end JS frameworks like Angular and React.<span class="brc"> ; </span><br><span class="brc">}</span></p>
+        <p> <span class="fun">function </span><span class="abt">About</span><span class="brc">(</span><span class="me">Me</span><span class="brc">) </span><span class="brc">{ <br></span><p class="function"><span class="ret">return </span><span class="brc"> Ion = </span> A passionate Full Stack Software Engineer with a love for creating well-designed, intuitive user interface and functional back-end. I am focused on mastering JavaScript, jQuery, CSS, Bootstrap, Express, Node, SQL and front-end JS frameworks like Angular and React.<span class="brc"> ; </p></span><br><span class="brc">}</span></p>
         <div class="row">
           <div class="gates col-sm-8">
-            <p>"<em> Measuring programming progress by lines of code is like measuring aircraft building progress by weight. </em>"</p>
+            <p><em>“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”</em></p>
             <p class="bill">(Bill Gates)</p>
           </div>
           <div class="col-sm-4">
