@@ -2,6 +2,16 @@
   max-width: 100%;
   height: auto;
 }
+.img{
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+p.description{
+  margin-left: 8em;
+  font-size: 1.3em;
+}
 
 .function{
   padding-left: 2em;
@@ -9,12 +19,10 @@
 .button{
   margin-top: 23px;
 }
-
-.git{
-  background: #000000;
-  color: #ffffff;
+.btn-default{
+    background: #000000;
+    color: #ffffff;
 }
-
 body{
   position: relative;
   margin: 30px;
@@ -32,10 +40,12 @@ body{
 .myhistory{
   
 }
-h1.about-me{
+p#about-me{
   color: #072F52;
   padding-bottom: 30px;
   font-size: 3em;
+  font-weight: bold;
+  
 }
 .gates{
   padding: 40px;
@@ -47,13 +57,19 @@ li{
   font-size: 1.4em;
   font-weight: bold;
 }
-.moonlighter{
+
+.git{
+  background: #000000;
+  color: #ffffff;
+}
+
+/* .moonlighter{
   background-image: url("http://www.clker.com/cliparts/w/5/2/T/M/A/ciel-noct-md.png");
-}
-.project{
+} */
+/* .project{
   margin: 20px;
-}
-.guess{
+} */
+/* .guess{
   padding: 40px;
 }
 .guesscountry{
@@ -71,7 +87,7 @@ li{
 }
 .badass{
   padding: 40px;
-}
+} */
 .contactme{
   padding-top: 40px;
 }
@@ -112,8 +128,11 @@ p.footer{
 }
 .brc{
   font-style: italic;
-  font-size: 28px;
-  color: #;
+  font-size: 1.3em;
+}
+.brc1{
+  font-style: italic;
+  font-size: 1.9em;
 }
 .me{
   font-style: italic;
