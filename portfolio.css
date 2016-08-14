@@ -3,13 +3,15 @@
   height: auto;
 }
 .img{
+  height: 10em;
+  width: 10em;
   float: left;
   margin-left: 1em;
   margin-right: 1em;
 }
 
-p.description{
-  margin-left: 8em;
+p.description, span.description{
+  /*margin-left: 8em;*/
   font-size: 1.3em;
 }
 
