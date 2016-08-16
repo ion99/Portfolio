@@ -65,8 +65,11 @@ body{
   padding-top: 100px;
 }
 div.letter{
-  background-image: url("img/letter.png");
+  background: url("img/letter.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
+
 p#about-me{
   color: #072F52;
   padding-bottom: 30px;
