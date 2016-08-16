@@ -18,6 +18,22 @@
   margin-right: 1em;
 }
 
+.open{
+  color: #F4FA57;
+  font-size: 1em;
+}
+
+.span2 .open {
+  position: relative;
+  bottom: 3.4em;
+  left: 1.9em;
+  visibility: hidden;
+}
+
+.span2:hover .open {
+  visibility: visible;
+}
+
 p.description, span.description{
   /*margin-left: 8em;*/
   font-size: 1.3em;
@@ -73,32 +89,6 @@ li{
   background: #000000;
   color: #ffffff;
 }
-
-/* .moonlighter{
-  background-image: url("http://www.clker.com/cliparts/w/5/2/T/M/A/ciel-noct-md.png");
-} */
-/* .project{
-  margin: 20px;
-} */
-/* .guess{
-  padding: 40px;
-}
-.guesscountry{
-   width: 180px;
-}
-.frederic{
-  padding: 40px;
-}
-.chopin{
-  height: 180px;
-  padding-top: 10px;
-}
-.plant{
-  width: 240px;
-}
-.badass{
-  padding: 40px;
-} */
 .contactme{
   padding-top: 40px;
 }
