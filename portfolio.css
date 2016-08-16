@@ -64,8 +64,8 @@ body{
 .history{
   padding-top: 100px;
 }
-.myhistory{
-  
+div.letter{
+  background-image: url("img/letter.png");
 }
 p#about-me{
   color: #072F52;
