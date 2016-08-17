@@ -51,7 +51,7 @@ p.description, span.description{
 }
 body{
   position: relative;
-  margin: 30px;
+  /*margin: 30px;*/
   padding: 0px;
   background-image: url("http://cdnph.upi.com/sv/b/i/UPI-5221440075520/2015/1/14400768644886/Google-study-Coding-is-a-low-priority-in-US-schools.jpg");
   background-attachment: fixed;
@@ -123,6 +123,7 @@ li{
 p.footer{
   padding: 30px;
   color: #1C944E;
+  text-align: center;
 }
 
 .abt{
