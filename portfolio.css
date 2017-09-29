@@ -64,6 +64,19 @@ button.dropdown-toggle {
   display: none;
 }
 
+
+/* Style the links inside the list items */
+ul.nav li a {
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Change background color of links on hover */
+ul.nav li a:hover {
+  background-color: #555;
+}
+
 #buttons {
   margin-top: 25px;
   padding-right: 20px;
@@ -119,16 +132,6 @@ button.dropdown-toggle {
   padding-top: 100px;
 }
 
-
-.gates{
-  padding: 40px;
-}
-
-.bill{
-  text-align: right; 
-}
-
-
 .contactme{
   padding-top: 40px;
 }
@@ -149,6 +152,48 @@ button.dropdown-toggle {
   top: 50%;
   transform: translateY(-50%);
   display: inline;
+}
+
+/*The Funny Function style*/
+
+.abt {
+  font-style: italic;
+  font-size: 28px;
+  color: #4AED09;
+}
+
+.brc {
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.brc1 {
+  font-style: italic;
+  font-size: 1.9em;
+}
+
+.me {
+  font-style: italic;
+  font-size: 28px;
+  color: #DB9B0F;
+}
+
+.ret {
+  font-style: italic;
+  font-size: 28px;
+  color: #D6047B;
+}
+
+.let {
+  font-style: italic;
+  font-size: 28px;
+  color: #9966ff;
+}
+
+.fun {
+  font-style: italic;
+  font-size: 28px;
+  color: #00ACE6;
 }
 
 
@@ -193,64 +238,6 @@ button.dropdown-toggle {
 }
 
 
-.abt {
-  font-style: italic;
-  font-size: 28px;
-  color: #4AED09;
-}
-
-.brc {
-  font-style: italic;
-  font-size: 1.3em;
-}
-
-.brc1 {
-  font-style: italic;
-  font-size: 1.9em;
-}
-
-.me {
-  font-style: italic;
-  font-size: 28px;
-  color: #DB9B0F;
-}
-
-.ret {
-  font-style: italic;
-  font-size: 28px;
-  color: #D6047B;
-}
-
-.let {
-  font-style: italic;
-  font-size: 28px;
-  color: #9966ff;
-}
-
-.fun {
-  font-style: italic;
-  font-size: 28px;
-  color: #00ACE6;
-}
-
-/* Style the links inside the list items */
-ul.nav li a {
-    display: inline-block;
-    text-align: center;
-    transition: 0.3s;
-
-}
-
-/* Change background color of links on hover */
-ul.nav li a:hover {background-color: #555;}
-
-
-.resizable(@direction: both) {
-  // Options: horizontal, vertical, both
-  resize: @direction;
-  // Safari fix
-  overflow: auto;
-}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
