@@ -5,6 +5,11 @@ body{
   background-attachment: fixed;
 }
 
+i.fa {
+  font-size: 24px;
+  color: white;
+}
+
 p.description, span.description{
   /*margin-left: 8em;*/
   font-size: 1.3em;
@@ -53,6 +58,10 @@ p.footer {
   padding: 30px;
   color: #1C944E;
   text-align: center;
+}
+
+button.dropdown-toggle {
+  display: none;
 }
 
 #buttons {
@@ -184,30 +193,41 @@ p.footer {
 }
 
 
-.abt{
+.abt {
   font-style: italic;
   font-size: 28px;
   color: #4AED09;
 }
-.brc{
+
+.brc {
   font-style: italic;
   font-size: 1.3em;
 }
-.brc1{
+
+.brc1 {
   font-style: italic;
   font-size: 1.9em;
 }
-.me{
+
+.me {
   font-style: italic;
   font-size: 28px;
   color: #DB9B0F;
 }
-.ret{
+
+.ret {
   font-style: italic;
   font-size: 28px;
   color: #D6047B;
 }
-.fun{
+
+.let {
+  font-style: italic;
+  font-size: 28px;
+  color: #9966ff;
+}
+
+.fun {
   font-style: italic;
   font-size: 28px;
   color: #00ACE6;
