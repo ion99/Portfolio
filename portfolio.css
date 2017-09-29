@@ -1,19 +1,80 @@
-.navbar{
+body{
+  position: relative;
+  padding: 0px;
+  background-image: url("http://cdnph.upi.com/sv/b/i/UPI-5221440075520/2015/1/14400768644886/Google-study-Coding-is-a-low-priority-in-US-schools.jpg");
+  background-attachment: fixed;
+}
+
+p.description, span.description{
+  /*margin-left: 8em;*/
+  font-size: 1.3em;
+}
+
+div.letter {
+  background: url("img/letter.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+p#about-me {
+  color: #072F52;
+  padding-bottom: 30px;
+  font-size: 3em;
+  font-weight: bold; 
+}
+
+p#contact {
+  color: #072F52;
+  padding-bottom: 30px;
+  font-size: 3em;
+  font-weight: bold; 
+}
+
+li.section {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 0.7em;
+  display: inline;
+}
+
+li.button {
+  display: inline;
+}
+
+li.photo {
+  display: inline;
+}
+
+p.footer {
+  font-size: 20px;
+  font-family: verdana;
+  height: 100px;
+  background: #f6f6f6;
+  padding: 30px;
+  color: #1C944E;
+  text-align: center;
+}
+
+#buttons {
+  margin-top: 25px;
+  padding-right: 20px;
+  float: right;
+}
+
+#photoname {
+  float: left;
+  padding: 2px;
+}
+
+.navbar {
   max-width: 100%;
   height: auto;
 }
-.img{
+
+.img {
   height: 10em;
   width: 15em;
   float: left;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.img1{
-  height: 15em;
-  width: 20em;
-  float: right;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -34,64 +95,31 @@
   visibility: visible;
 }
 
-p.description, span.description{
-  /*margin-left: 8em;*/
-  font-size: 1.3em;
+
+.btn {
+  padding-top: 30px; 
 }
 
 .function{
   padding-left: 2em;
 }
-.button{
-  margin-top: 23px;
-}
-.btn-default{
-    background: #000000;
-    color: #ffffff;
-}
-body{
-  position: relative;
-  /*margin: 30px;*/
-  padding: 0px;
-  background-image: url("http://cdnph.upi.com/sv/b/i/UPI-5221440075520/2015/1/14400768644886/Google-study-Coding-is-a-low-priority-in-US-schools.jpg");
-  background-attachment: fixed;
-}
 
-.section{
-  padding-top: 0.7em;
-}
+
 
 .history{
   padding-top: 100px;
 }
-div.letter{
-  background: url("img/letter.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
 
-p#about-me{
-  color: #072F52;
-  padding-bottom: 30px;
-  font-size: 3em;
-  font-weight: bold;
-  
-}
+
 .gates{
   padding: 40px;
 }
+
 .bill{
-  text-align: right;
-}
-li{
-  font-size: 1.4em;
-  font-weight: bold;
+  text-align: right; 
 }
 
-.git{
-  background: #000000;
-  color: #ffffff;
-}
+
 .contactme{
   padding-top: 40px;
 }
@@ -99,32 +127,62 @@ li{
 .my_pic{
   width: 5em;
   height: 5em;
-}
-.name{
-  font-size: 1.3em;
-  padding-top: 1.2em;
-  font-weight: bold;
+  float: left;
+  display: inline;
+  margin-left: 7px;
 }
 
-@media screen and (max-width:680px) {
+.name {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline;
+}
+
+
+@media screen and (max-width:1140px) {
   .list:not(:first-child) {display: none;}
 }
 
-
-.footer {
-  bottom: 0;
-  font-size: 20px;
-  font-family: verdana;
-  width: 100%;
-  height: 100px;
-  background: #f6f6f6;
-  border-radius: 5px;
-  }
-p.footer{
-  padding: 30px;
-  color: #1C944E;
-  text-align: center;
+@media screen and (max-width:770px) {
+  .sections {display: none;}
 }
+
+@media screen and (max-width:450px) {
+  p#about-me {font-size: 2.5em;}
+  div.letter {
+    height: 249px;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  p#contact {    
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 2em;
+  }
+  label.col-sm-2.control-label {margin-bottom: 0}
+  div.form-group {margin-bottom: 0}
+  input.form-control {
+    padding: 0;
+    height: 20px;
+  }
+  textarea.form-control {
+    padding: 0;
+    height: 50px;
+  }
+  input#human.form-control {width: 80px; display: inline;}
+  input#submit {display: inline; float: right;}
+  p.footer {font-size: 14px;}
+  div#section3 {padding-top: 10px;}
+}
+
 
 .abt{
   font-style: italic;

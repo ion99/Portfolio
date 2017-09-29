@@ -3,55 +3,54 @@
   <head>
     <title>Ion_Gorincioi_Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="portfolio.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-<div class="container-fluid">
+    <div class="container-fluid">
       <div class="navbar-header">
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="nav">
-            <div class="row">
-              <div class="col-sm-1 col-xs-2">
-                <img class="my_pic" src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/656496/profile/profile-80_1.jpg">
+            <div id="photoname">
+              <img class="my_pic" src="img/ion.jpg">
+              <div>
+                <div class="name">Ion Gorincioi</div>
               </div>
-              <div class="col-sm-2 col-xs-3 name">Ion Gorincioi</div>
-              <div class="list col-sm-4 col-sm-offset-1 col-xs-3">
-                <ul class="nav navbar-nav">
-                  <li class="section"><a href="#section1">About me</a></li>
-                  <li class="section"><a href="#section2">Portofolio</a></li>
-                  <li class="section"><a href="#section3">Contact</a></li>
-                </ul>
-              </div>  
-              <div class="button col-sm-3 col-sm-offset-1 col-xs-7">     
-                <a href="https://www.freecodecamp.com/ion99" target='_blank' class="btn btn-success btn-responsive">FreeCodeCamp</a>
-                <a href="https://linkedin.com/in/iongorincioi" target='_blank' class="btn btn-info btn-responsive">LinkedIn</a>
-                <a href="https://github.com/ion99" target='_blank' class="btn git btn-responsive">GitHub</a>
-              </div>
+            </div>  
+            <div class="sections">
+              <ul class="nav navbar-nav">
+                <li class="section"><a href="#section1">About me</a></li>
+                <li class="section"><a href="#section2">Portofolio</a></li>
+                <li class="section"><a href="#section3">Contact</a></li>
+              </ul>
             </div>
+            <div id="buttons">
+              <ul>     
+                <li class="button">
+                  <a href="https://www.freecodecamp.com/ion99" target='_blank' class="btn btn-success btn-responsive"><i class="fa fa-free-code-camp" style="font-size:24px;color:white"></i></a>
+                </li>
+                <li class="button">
+                  <a href="https://linkedin.com/in/iongorincioi" target='_blank' class="btn btn-primary btn-responsive"><i class="fa fa-linkedin-square" style="font-size:24px;color:white"></i></a>
+                </li>
+                <li class="button">
+                  <a href="https://github.com/ion99" target='_blank' class="btn btn-primary btn-responsive" style="background-color: black"><i class="fa fa-github" style="font-size:24px;color:white"></i></a>
+                </li>
+                <li class="button">
+                  <a href="https://twitter.com/gorincioii99" target='_blank' class="btn btn-info btn-responsive"><i class="fa fa-twitter" style="font-size:24px;color:white"></i></a>
+                </li>
+              </ul>
+            </div>   
           </div>
         </nav>
       </div>
     </div>
     <div id="section1" class="container history">
       <div class="jumbotron myhistory">
-        <p id="about-me" class="text-center">&lt;/{ Hello World ! }/&gt;</p>   
-        <p> <span class="fun">function </span><span class="abt">About</span><span class="brc">(</span><span class="me">Me</span><span class="brc">)</span><span class="brc">{ <br></span><p class="function"><span class="ret">return </span><span class="brc"> Ion = </span> A passionate Software Engineer with a love for creating well-designed, intuitive user interface and functional back-end. I am focused on mastering JavaScript, jQuery, CSS, Bootstrap, Express, Node, SQL and front-end JS frameworks like Angular and React.<span class="brc"> ; </p></span><br><span class="brc1">}</span></p>
-        <div class="row">
-          <div class="gates col-sm-8">
-            <p>"<em>Measuring programming progress by lines of code is like measuring aircraft building progress by weight.</em>"</p>
-            <p class="bill">(Bill Gates)</p>
-          </div>
-          <div class="col-sm-4">
-            <img src="img/code.png" class="img1 moonlighter img-responsive" alt="Responsive image">
-          </div>
-        </div>
+        <p id="about-me" class="text-center">&lt; { Hello World ! }/&gt;</p>   
+        <p> <span class="fun">function </span><span class="abt">About</span><span class="brc">(</span><span class="me">Me</span><span class="brc">)</span><span class="brc">{ <br></span><p class="function"><span class="ret">return </span><span class="brc"> Ion = </span> Junior Software Engineer with a love for well-designed and intuitive user interfaces. I am focused on mastering JavaScript and front-end JS frameworks, love React. I enjoy participating in algorithm contests. I’m high-energy, passionate, and ambitious. I’m looking for a company that will allow me to apply my skills and learn in a team environment.<span class="brc"> ; </p></span><br><span class="brc1">}</span></p>
       </div>     
     </div>
-  
     <div id="section2" class="container history">
       <div class="jumbotron myhistory">
         <p id="about-me" class="text-center">Portofolio</p>
@@ -67,7 +66,7 @@
           </div>
         </div>
       </div>
-       <hr>
+      <hr>
       <div class="container-fluid">
         <div class="row-fluid">
           <div class="span2">
@@ -80,20 +79,20 @@
           </div>
         </div>
       </div>
-        <hr>
+      <hr>
         <div class="container-fluid">
           <div class="row-fluid">
             <div class="span2">
-            <a class="img" href="https://iongorincioi.com/project3/" target='_blank'><img src="img/Weather.png" class="guesscountry img-responsive" alt="Responsive image"><p class="open">Check It Out!</p></a>
+            <a class="img" href="https://iongorincioi.com/project3/" target='_blank'><img src="img/Weather.png" class="img-responsive" alt="Responsive image"><p class="open">Check It Out!</p></a>
               <!--Sidebar content-->
             </div>
             <div class="span10">
-            <p class="description"><b>Get The Local Weather</b><br>You can see the weather in your current location. You can see a different icon (e.g. sunny, cloudy) depending on the weather. You can push the F/C to toggle between Fahrenheit and Celsius. Project <a href="https://github.com/ion99/Get-Local-Weather" target='_blank'>code</a>.</p>
+            <p class="description"><b>Get Local Weather</b><br>You can see the weather in your current location. You can see a different icon (e.g. sunny, cloudy) depending on the weather. You can push the F/C to toggle between Fahrenheit and Celsius. Project <a href="https://github.com/ion99/Get-Local-Weather" target='_blank'>code</a>.</p>
               <!--Body content-->
             </div>
           </div>
         </div>
-         <hr>
+        <hr>
         <div class="container-fluid">
           <div class="row-fluid">
             <div class="span2">
@@ -134,60 +133,47 @@
         </div>
 
       </div>     
-    </div>
-    
+    </div>   
     <div id="section3" class="container history">
       <div class="jumbotron myhistory letter">
-        <p id="about-me" class="text-center">Contact me:</p>   
-        
-<div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-        <form class="form-horizontal" role="form" method="post" action="mailer.php">
-          <div class="form-group">
-            <label for="name" class="col-sm-2 control-label">Name</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+        <p id="contact" class="text-center">Contact me:</p>    
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <form class="form-horizontal" role="form" method="post" action="mailer.php">
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="message" class="col-sm-2 control-label">Message</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" rows="2" name="message"></textarea>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                        <input id="submit" name="submit" type="submit" value="Send" class="">
+                      </div>
+                  </div>
+                </div>
+              </form> 
             </div>
           </div>
-          <div class="form-group">
-            <label for="email" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="message" class="col-sm-2 control-label">Message</label>
-            <div class="col-sm-10">
-              <textarea class="form-control" rows="4" name="message"></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-10 col-sm-offset-2">
-              <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-            </div>
-          </div>
-        </form> 
+        </div>   
       </div>
     </div>
-  </div>   
-
-</div>
-</div>
-    <!-- <div class="footer text-center"> -->
-      <p class="footer">Ion Gorincioi &#9400; 2016. All Rights Reserved :) <img src="img/comodo_secure_seal_76x26_transp.png"></p>
-    <!-- </div> -->
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <p class="footer">Ion Gorincioi &#9400; 2016. All Rights Reserved :) <img src="img/comodo_secure_seal_76x26_transp.png"></p>
   </body> 
 </html>  
 
